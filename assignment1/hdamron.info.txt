@@ -1,0 +1,12 @@
+1. Hunter Damron
+2. Email: hdamron@email.sc.edu
+3. Other Contact Information (Phone): (803) 448-4411
+4. Department: Computing
+   Enrollment: Yes
+   Time at USC-Columbia: Half semester
+   Tranfer student: No
+5. Programming Experience: Roughly 4 years
+   Languages: Python, C/C++, Java, attempting Common Lisp
+6. Unix Experience: Linux user for 2 years until dumb decision to own a Mac
+7. Text Editor: vi
+8. Name of file: hdamron.info.txt

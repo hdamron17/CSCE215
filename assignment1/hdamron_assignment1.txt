@@ -1,0 +1,34 @@
+hdamron
+cocsce-l1d39-23
+10-25-2017 - 10:21:15 AM
+1. Hunter Damron
+2. Email: hdamron@email.sc.edu
+3. Other Contact Information (Phone): (803) 448-4411
+4. Department: Computing
+   Enrollment: Yes
+   Time at USC-Columbia: Half semester
+   Tranfer student: No
+5. Programming Experience: Roughly 4 years
+   Languages: Python, C/C++, Java, attempting Common Lisp
+6. Unix Experience: Linux user for 2 years until dumb decision to own a Mac
+7. Text Editor: vi
+8. Name of file: hdamron.info.txt
+Script started on Wed 25 Oct 2017 10:19:52 AM EDT
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ whoami
+hdamron
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ printf "$USER\n"
+hdamron
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ echo $USER
+hdamron
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ whoami
+hdamron
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ echo $HOSTNAME
+cocsce-l1d39-23
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ echo $(date +"%m-%d-%Y")
+10-25-2017
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ echo $(date +"%r")
+10:20:53 AM
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ exit
+exit
+
+Script done on Wed 25 Oct 2017 10:20:55 AM EDT

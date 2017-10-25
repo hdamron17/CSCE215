@@ -1,0 +1,19 @@
+Script started on Wed 25 Oct 2017 10:19:52 AM EDT
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ whoami
+hdamron
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ printf "$USER\n"
+hdamron
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ echo $USER
+hdamron
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ whoami
+hdamron
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ echo $HOSTNAME
+cocsce-l1d39-23
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ echo $(date +"%m-%d-%Y")
+10-25-2017
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ echo $(date +"%r")
+10:20:53 AM
+]0;hdamron@cocsce-l1d39-23: ~/Assignments/Assignment1hdamron@cocsce-l1d39-23:~/Assignments/Assignment1$ exit
+exit
+
+Script done on Wed 25 Oct 2017 10:20:55 AM EDT
