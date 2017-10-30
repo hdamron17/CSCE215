@@ -10,9 +10,8 @@ cocsce-l1d39-18
  # Question 3
   find /usr/local/tmp/csce215/election2008 -name "Aug0*.csv" -print
  # Question 4
-  find /usr/local/tmp/csce215/election2008 -name "Aug0*.csv" -o -name "Jul0*.csv" -print
+  find /usr/local/tmp/csce215/election2008 \( -name "Aug0*.csv" -o -name "Jul0*.csv" \) -print
  # Question 5
-  find /usr/local/tmp/csce215/election2008 -name "Jan*.csv" -o -name "Feb*.csv" -o -name "Mar*.csv" -o -name "May*.csv" -o -name "Jun*.csv" -o -name "Jul*.csv" -o -name "Aug0*.csv" -print
-
+  find /usr/local/tmp/csce215/election2008 \( -name "Jan*.csv" -o -name "Feb*.csv" -o -name "Mar*.csv" -o -name "May*.csv" -o -name "Jun*.csv" -o -name "Jul*.csv" -o -name "Aug0*.csv" \) -print
 # Part 2
  find /usr/local/tmp/csce215/election2008 -name "*.csv" -exec ./extractdata \{\} \; > polls.csv
