@@ -20,7 +20,7 @@ fi
 cd $ASSIGNMENT
 
 # Variable for the filename
-FILENAME=$USER\_$ASSIGNMENT.txt
+FILENAME=$USER.$ASSIGNMENT.txt
 
 # Variable for the computer name
 HOST=$(hostname)
