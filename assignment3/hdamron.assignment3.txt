@@ -1,6 +1,6 @@
-hdamron
-cocsce-l1d39-18
-11-06-2017 - 09:33:06 AM
+#hdamron
+#cocsce-l1d39-18
+#11-06-2017 - 09:33:06 AM
 
 ## Part 1
  # Question 1
@@ -17,3 +17,5 @@ cocsce-l1d39-18
   grep "^\S\{5\}$" ~/words | wc -l
  # Question 4
   grep "^[Aa]\S\{6\}$" ~/words | wc -l
+ # Question 5
+  grep -i "\([aeiou][^aeiou]\{6\}[aeiou]\|^[^aeiou]\{6\}[aeiou]\|[aeiou][^aeiou]\{6\}$\)" $HOME/words | wc -l
