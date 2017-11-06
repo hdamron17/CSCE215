@@ -113,3 +113,53 @@ Lecture Notes - CSCE 215 UNIX/Linux Fundamentals 8:30 - 9:20 a.m.
  * `echo $PATH` shows all path variables (variables which can be used to execute from anywhere)
  * `export PATH=.:$PATH` adds current directory to front of existing path (extremely bad idea because items in current directory override system utilities)
 * `which [command]` tells where the command is located
+
+## 6 Nov. 2017
+* Environment variables
+ * var=value #sh, bash
+ * set var = value #ksh
+* Important variables
+ * `HOME` = user home directory
+ * `PATH` = : delimited directories for command lookup
+ * `USER` = username
+ * `MAIL` = absolute path of mailbox
+ * `SHELL` = absolute path of login name
+ * `TERM` = terminal type
+ * `PS1` = terminal prompt
+* Process subsystem utils
+ * `ps` = monitor status of processes
+ * `kill` = send signal to pid
+ * `wait` = parent process waits for one of its children
+ * `nohup` = makes command immune to hangup and terminate signals
+ * `sleep` = sleep time in seconds
+ * `nice` = run processes in low priority
+* Pipes
+ * redirects output of one command to input of another command
+ * makes filters
+* `cat file | command` = `command < file`
+* Filter examples
+ * `sort` = sorts lines from a file by user specified pattern
+ * `grep` = string matching filter
+ * `awk` = programmable filter
+ * `cat` = simplest filter: outputs file to stdout
+ * `head` = first n lines of file
+ * `tail` = last n lines of file
+ * `cut` = prints selected parts of lines
+  * file delimiters: Tab/Pipe/Colon/Comma-separated
+  * `-d` delimiter type
+  * `-f` file number (i.e. 1) or numbers (i.e. 1-3)
+  * `-c` character number or numbers
+  * unfortunately there is no way to count backwards from last char/field
+ * `uniq` = remove or report _adjacent_ unique lines
+  * good idea to sort first because unique lines must be adjacent
+ * `wc` = counts results
+   * `-l` counts lines
+   * `-m` counts chars
+   * `-w` counts words
+ * `tr` = translate or delete characters
+  * `tr [from_pattern] [to_pattern]` converts lines of first pattern to second pattern
+  * i.e. `tr A-Z a-z` converts uppercase letters to lowercase letters
+  * just prints to stdout, does not change file
+ * `sed` = pattern matching with action
+  * possibly delete every other line: `sed n'd'`
+ * `file` = tries to tell type of file
