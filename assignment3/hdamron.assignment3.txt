@@ -1,0 +1,19 @@
+hdamron
+cocsce-l1d39-18
+11-06-2017 - 09:33:06 AM
+
+## Part 1
+ # Question 1
+  cut -d ',' -f 14 polls.csv | sort | uniq
+ # Question 2
+  cut -d ',' -f 14 polls.csv | sort | uniq | wc -l
+
+## Part 2
+ # Question 1
+  cat /usr/local/tmp/csce215/Words | tr [A-Z] [a-z]
+ # Question 2
+  sed "n;d;" /usr/local/tmp/csce215/Words > ~/words
+ # Question 3
+  grep "^\S\{5\}$" ~/words | wc -l
+ # Question 4
+  grep "^[Aa]\S\{6\}$" ~/words | wc -l
