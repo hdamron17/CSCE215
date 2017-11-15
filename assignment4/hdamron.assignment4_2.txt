@@ -1,0 +1,97 @@
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from myname...done.
+(gdb) start
+Temporary breakpoint 1 at 0x400c42: file main.cpp, line 6.
+Starting program: /acct/hdamron/215/assignment4/myname 
+
+Temporary breakpoint 1, main () at main.cpp:6
+6	int main () {
+(gdb) step
+7	        name myName;
+(gdb) step
+name::name (this=0x7fffffffddd0) at name.h:5
+5	class name {
+(gdb) step
+main () at main.cpp:9
+9	        myName.SetLast(LAST);
+(gdb) step
+name::SetLast (this=0x7fffffffddd0, str="Damron") at name.cpp:27
+27		last=str;
+(gdb) step
+28	}
+(gdb) step
+main () at main.cpp:10
+10	        myName.SetMiddle(MI);
+(gdb) step
+name::SetMiddle (this=0x7fffffffddd0, str="J ") at name.cpp:19
+19		middle=str;
+(gdb) step
+20	}
+(gdb) step
+main () at main.cpp:11
+11	        myName.SetFirst(FIRST);
+(gdb) step
+name::SetFirst (this=0x7fffffffddd0, str="Hunter ") at name.cpp:11
+11		first=str;
+(gdb) step
+12	}
+(gdb) step
+main () at main.cpp:13
+13	        cout <<"My name is: ";
+(gdb) step
+14	        myName.PrintFirst();
+(gdb) step
+name::PrintFirst (this=0x7fffffffddd0) at name.cpp:37
+37	        cout << first;
+(gdb) step
+38	}
+(gdb) step
+main () at main.cpp:15
+15	        myName.PrintMiddle();
+(gdb) step
+name::PrintMiddle (this=0x7fffffffddd0) at name.cpp:34
+34	        cout << middle;
+(gdb) step
+35	}
+(gdb) step
+main () at main.cpp:16
+16	        myName.PrintLast();
+(gdb) step
+name::PrintLast (this=0x7fffffffddd0) at name.cpp:31
+31		cout << last << "\n";
+(gdb) step
+32	}
+(gdb) step
+main () at main.cpp:18
+18	        return 0;
+(gdb) step
+7	        name myName;
+(gdb) step
+name::~name (this=0x7fffffffddd0, __in_chrg=<optimized out>) at name.h:5
+5	class name {
+(gdb) step
+main () at main.cpp:19
+19	}
+(gdb) step
+__libc_start_main (main=0x400c36 <main()>, argc=1, argv=0x7fffffffdf38, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffdf28) at ../csu/libc-start.c:325
+(gdb) step
+__GI_exit (status=0) at exit.c:104
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 4728] will be killed.
+
+Quit anyway? (y or n) EOF [assumed Y]
