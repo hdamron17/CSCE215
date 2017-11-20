@@ -147,7 +147,7 @@ Lecture Notes - CSCE 215 UNIX/Linux Fundamentals 8:30 - 9:20 a.m.
  * `cut` = prints selected parts of lines
   * file delimiters: Tab/Pipe/Colon/Comma-separated
   * `-d` delimiter type
-  * `-f` file number (i.e. 1) or numbers (i.e. 1-3)
+  * `-f` field number (i.e. 1) or numbers (i.e. 1-3)
   * `-c` character number or numbers
   * unfortunately there is no way to count backwards from last char/field
  * `uniq` = remove or report _adjacent_ unique lines
@@ -163,3 +163,20 @@ Lecture Notes - CSCE 215 UNIX/Linux Fundamentals 8:30 - 9:20 a.m.
  * `sed` = pattern matching with action
   * possibly delete every other line: `sed n'd'`
  * `file` = tries to tell type of file
+
+## 15 Nov. 2017
+ * `gitk` = git repository browser
+ * Debuggers
+  * `-g` parameter with `cc`, `gcc`, and `g++`
+  * `gdb [programfile] [<corefile>|<pid>]]`
+ * `gdb` commands
+  * Shown too quickly
+ * `make` - Compilation helper using `Makefile`
+  * Example Makefile
+   * Shown too quickly
+ * `tar` Options
+  * `-c` compress
+  * `-f filename` specify tar format file
+  * `-v` verbose
+  * `-x` extract
+  * `-t` table of contents
