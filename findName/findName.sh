@@ -5,7 +5,7 @@ STU=$1
 
 if ! [ "$#" = 1 ]; then
   echo "Incorrect number of arguments.";
-  exit 1;
+  exit;
 fi
 
 for line in $(cat $STU_FILE | grep $STU); do
