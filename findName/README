@@ -1,0 +1,11 @@
+hdamron
+CSCE 215
+# Overview of findName application
+
+## Usage
+From project directory use ```./findName [userid]``` to show name of student in CSCE 215 at USC during the fall semester of 2017.
+
+### Results
+* Exactly one parameter should be passed. If the number of parameter is not exactly one, the result is: ```Incorrect number of arguments.```
+* If the student id does not belong to a student in the `/acct/common/CSCE215-Fall17` file, the result is: ```Sorry that person is not in CSCE215 this semester```
+* If the id is valid and belongs to a student in the course, the result is the student's first name, middle initial, and last name, all in capital letters as in "HUNTER J DAMRON" for student with id "hdamron"
