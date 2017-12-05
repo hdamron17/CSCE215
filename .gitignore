@@ -2,3 +2,5 @@
 *.o
 *.out
 *.tar*
+*.gz
+case-study
