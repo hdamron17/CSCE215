@@ -10,7 +10,7 @@ cocsce-l1d39-23
    Tranfer student: No
 5. Programming Experience: Roughly 4 years
    Languages: Python, C/C++, Java, attempting Common Lisp
-6. Unix Experience: Linux user for 2 years until dumb decision to own a Mac
+6. Unix Experience: Linux user for 2 years until the rational decision to own a Mac, also known as a working machine.
 7. Text Editor: vi
 8. Name of file: hdamron.info.txt
 Script started on Wed 25 Oct 2017 10:19:52 AM EDT
